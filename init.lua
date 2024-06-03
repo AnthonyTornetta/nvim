@@ -33,7 +33,6 @@ local plugins = {
     {'hrsh7th/cmp-buffer'},
     {'hrsh7th/cmp-path'},
     --{'VonHeikemen/lsp-zero.nvim', branch = 'v3.x'},
-	--{'neovim/nvim-lspconfig'},
 	{'hrsh7th/cmp-nvim-lsp'},
 	{'hrsh7th/nvim-cmp'},
     {'saadparwaiz1/cmp_luasnip'},
@@ -41,7 +40,7 @@ local plugins = {
     {'L3MON4D3/LuaSnip'},
 	{'williamboman/mason.nvim'},
 	{'williamboman/mason-lspconfig.nvim'},
-    {'neovim/nvim-lspconfig'},
+    {'elentok/format-on-save.nvim'},
     {
         "folke/tokyonight.nvim",
         lazy = false,
